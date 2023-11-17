@@ -13,7 +13,7 @@ fars_map_state(state.num, year)
 }
 \value{
 \code{fars_map_state} will return a map plot of accidents for the given
-  state and year. If no accidents occurred in that state for that year a 
+  state and year. If no accidents occurred in that state for that year a
   notification will be provided and if an invalid state number is provided
   an error will be returned.
 }
@@ -22,7 +22,7 @@ fars_map_state(state.num, year)
   and year.
 }
 \examples{
-fars_map_state(2, 2016)
+fars_map_state(2, 2014)
 
 }
 \seealso{
