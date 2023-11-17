@@ -1,0 +1,12 @@
+installed.packages("roxygen2")
+installed.packages("Rtools")
+roxygen2::roxygenise()
+roxygen2::roxygenise()
+roxygen2::roxygenise()
+roxygen2::roxygenise()
+git add --all
+roxygen2::roxygenise()
+roxygen2::roxygenise()
+roxygen2::roxygenise()
+roxygen2::roxygenise()
+install.packages("fars")

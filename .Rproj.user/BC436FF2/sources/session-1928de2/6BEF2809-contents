@@ -1,4 +1,4 @@
-setwd(system.file("extdata", package = "fars"))
+setwd(system.file("exdata", package = "fars"))
 
 test_that("fars_map_state() works correctly", {
         prints_text(fars_map_state(18, 2015))
