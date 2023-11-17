@@ -9,3 +9,5 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
+imports: dplyr, maps, readr, tidyr, knitr, rmarkdown, testthat,
+VignetteBuilder: knitr
