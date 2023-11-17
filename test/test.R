@@ -1,11 +1,4 @@
 library(testthat)
-library(fars)
-library(dplyr)
-library(readr)
-library(tidyr)
-library(magrittr)
-library(graphics)
-library(maps)
 
 # test make_filename
 test_that("Creating File Names", {
