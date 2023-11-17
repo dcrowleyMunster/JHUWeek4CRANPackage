@@ -15,6 +15,7 @@ This package is intended to allow light analysis of the Fatality Analysis Report
 
 ```{r import libraries}
  library(fars)
+ library(magrittr)
  suppressWarnings(library(maps))
 ```
 
@@ -34,17 +35,17 @@ Three functions will be accessible to the end-user
 The fars_read() function allows the package to read example datafiles from a predetrmined path location. an output dataframe is generated for the user.
 
 ```{r fars_read_example}
-example_file <- system.file("inst/accident_2014.csv.bz2", package = "fars")
+example_file <- system.file("extdata/accident_2014.csv.bz2", package = "fars")
 fars_read(example_file)
 ```
 
 ```{r fars_summarize_years_example}
-setwd(system.file("inst", package = "fars"))
+setwd(system.file("extdata", package = "fars"))
 fars_summarize_years(c(2013))
 ```
 
 ```{r fars_map_state_example}
-setwd(system.file("inst", package = "fars"))
+setwd(system.file("extdata ", package = "fars"))
 state_num <- 18
 fars_map_state(state_num, 2014)
 

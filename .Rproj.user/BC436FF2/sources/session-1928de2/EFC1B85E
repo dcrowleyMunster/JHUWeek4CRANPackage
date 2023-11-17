@@ -1,0 +1,26 @@
+{
+    "id": "EFC1B85E",
+    "path": "E:/RStudio_Projects/fars/R/fars_functions.R",
+    "project_path": "R/fars_functions.R",
+    "type": "r_source",
+    "hash": "1499108657",
+    "contents": "",
+    "dirty": false,
+    "created": 1700250247317.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "134,0",
+        "scrollLine": "122"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1700252156,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1700252155545,
+    "read_only": false,
+    "read_only_alternatives": []
+}
