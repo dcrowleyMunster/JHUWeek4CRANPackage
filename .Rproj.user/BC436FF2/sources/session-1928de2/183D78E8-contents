@@ -1,5 +1,5 @@
 library(testthat)
-library(FARS)
+library(fars)
 library(dplyr)
 library(readr)
 library(tidyr)
