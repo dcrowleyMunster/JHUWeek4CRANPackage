@@ -1,0 +1,49 @@
+---
+title: "FAR vignette"
+author: "DCrowley"
+date: "`r Sys.Date()`"
+output:
+        html_document: default
+        pdf_document: default
+---
+
+# Package Description
+
+This package is intended to allow light analysis of the Fatality Analysis Reporting System (FARS). This package will provide a mapping tool for plotting accident locations within an individual state. The FARS census information is provided by the National Highway Traffic Safety Administration (NHTSA).
+
+# Load the Needed Packages
+
+```{r import libraries}
+ library(fars)
+ suppressWarnings(library(maps))
+```
+
+# Package Functions Summary
+
+Three functions will be accessible to the end-user
+
+ `fars_read()` (accessible to end-user)
+ `make_filename()`
+ 'fars_read_years()'
+ `fars_summarize_years()` (accessible to end-user)
+ 'fars_map_state()` (accessible to end-user)
+ 
+
+# Summary of Exports
+
+The fars_read() function allows the package to read example datafiles from a predetrmined path location. an output dataframe is generated for the user.
+
+```{r fars_read_example}
+example_file <- system.file("inst/accident_2014.csv.bz2", package = "fars")
+fars_read(example_file)
+```
+
+```{r fars_summarize_years_example}
+setwd(system.file("inst", package = "fars"))
+fars_summarize_years(c(2013))
+```
+
+```{r fars_map_state_example}
+setwd(system.file("inst", package = "fars"))
+state_num <- 18
+fars_map_state(state_num, 201
